@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5
+CMAKE_SOURCE_DIR = /home/trevor/Desktop/OSS/lab08
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make
+CMAKE_BINARY_DIR = /home/trevor/Desktop/OSS/lab08/make
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(CMAKE_COMMAND) -E cmake_progress_start /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make/CMakeFiles /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make/MathFunctions//CMakeFiles/progress.marks
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make/CMakeFiles 0
+	cd /home/trevor/Desktop/OSS/lab08/make && $(CMAKE_COMMAND) -E cmake_progress_start /home/trevor/Desktop/OSS/lab08/make/CMakeFiles /home/trevor/Desktop/OSS/lab08/make/MathFunctions//CMakeFiles/progress.marks
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trevor/Desktop/OSS/lab08/make/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/clean
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/trevor/Desktop/OSS/lab08/make && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MathFunctions/CMakeFiles/MathFunctions.dir/rule:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ MathFunctions: MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
 # fast build rule for target.
 MathFunctions/fast:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
 mysqrt.o: mysqrt.cxx.o
@@ -190,7 +190,7 @@ mysqrt.o: mysqrt.cxx.o
 
 # target to build an object file
 mysqrt.cxx.o:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
 .PHONY : mysqrt.cxx.o
 
 mysqrt.i: mysqrt.cxx.i
@@ -198,7 +198,7 @@ mysqrt.i: mysqrt.cxx.i
 
 # target to preprocess a source file
 mysqrt.cxx.i:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
 .PHONY : mysqrt.cxx.i
 
 mysqrt.s: mysqrt.cxx.s
@@ -206,7 +206,7 @@ mysqrt.s: mysqrt.cxx.s
 
 # target to generate assembly for a file
 mysqrt.cxx.s:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+	cd /home/trevor/Desktop/OSS/lab08/make && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
 .PHONY : mysqrt.cxx.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/trevor/Desktop/OSS/cmake-git/Help/guide/tutorial/Step5/make && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/trevor/Desktop/OSS/lab08/make && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
